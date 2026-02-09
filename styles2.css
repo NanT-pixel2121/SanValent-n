@@ -54,6 +54,7 @@ h1 {
     font-size: 2rem;
     cursor: pointer;
     animation: fall 4s linear forwards;
+    color:#ff0000;
 }
 
 @keyframes fall {
