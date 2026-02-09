@@ -1,5 +1,5 @@
 // Contraseña predefinida
-const CONTRASENA = "2812";
+const CONTRASENA = "2912";
 
 // Variable para almacenar la contraseña ingresada
 let contrasenaIngresada = "";
@@ -106,4 +106,5 @@ function actualizarContador() {
 
 // Actualizar el contador cada segundo
 setInterval(actualizarContador, 1000);
+
 
