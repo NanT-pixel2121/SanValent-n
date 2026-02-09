@@ -68,7 +68,7 @@ function mostrarCarta() {
 
 // Función para actualizar el contador
 function actualizarContador() {
-    const fechaInicio = new Date('2015-10-31');
+    const fechaInicio = new Date('2024-12-29');
     const ahora = new Date();
 
     let anos = ahora.getFullYear() - fechaInicio.getFullYear();
@@ -106,5 +106,6 @@ function actualizarContador() {
 
 // Actualizar el contador cada segundo
 setInterval(actualizarContador, 1000);
+
 
 
